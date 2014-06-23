@@ -13,7 +13,6 @@
     <script type="text/javascript">
       function onReceive(event) {
         console.log("IFRAME RECEIVED DATA: ", event.data);
-        console.dir(event.data);
       }
       window.addEventListener("message", onReceive, false);
 
